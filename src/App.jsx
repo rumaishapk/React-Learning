@@ -1,12 +1,11 @@
 const App = () => {
+    const name = "Rumaisha";
+        const year = 2025;
     return (
+        
         <div>
-            <h1>My Favouraite Foods</h1>
-            <ul>
-                <li>chocolates</li>
-                <li>noodles</li>
-                <li>marshmallow</li>
-            </ul>
+            <p>created by {name}</p>
+            <p>copyright {year}</p>
         </div>
     )
 }
