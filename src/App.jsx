@@ -1,6 +1,7 @@
 const App = () => {
     const name = "Rumaisha";
-        const year = 2025;
+    const currentdate = new Date()
+        const year = currentdate.getFullYear();
     return (
         
         <div>
