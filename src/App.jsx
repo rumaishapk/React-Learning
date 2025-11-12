@@ -5,7 +5,7 @@ const App = () => {
             <ul>
                 <li>chocolates</li>
                 <li>noodles</li>
-                <li>mashmallow</li>
+                <li>marshmallow</li>
             </ul>
         </div>
     )
