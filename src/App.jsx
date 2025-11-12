@@ -1,11 +1,14 @@
-function App() {
-
-  return (
-    <>
-      <h1>HELLO WORLD</h1>
-      <p>This is a paragraph</p>
-    </>
-  )
+const App = () => {
+    return (
+        <div>
+            <h1>My Favouraite Foods</h1>
+            <ul>
+                <li>chocolates</li>
+                <li>noodles</li>
+                <li>mashmallow</li>
+            </ul>
+        </div>
+    )
 }
 
-export default App
+export default App;
