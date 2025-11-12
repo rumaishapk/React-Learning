@@ -1,13 +1,21 @@
+import "./index.css"
+
 const App = () => {
-    const name = "Rumaisha";
-    const currentdate = new Date()
-        const year = currentdate.getFullYear();
+    
     return (
-        
         <div>
-            <p>created by {name}</p>
-            <p>copyright {year}</p>
-        </div>
+        <h1 className = "heading">My Favouraite Foods</h1>
+            <div>
+               <img className = "food-img"
+                src="https://flowera.in/uploads/tempDir/Chocolate-Basket-2-600X600.webp"></img>
+               <img className = "food-img"
+                src="https://shwetainthekitchen.com/wp-content/uploads/2023/03/vegetable-noodles.jpg"></img>
+               <img className = "food-img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbtEEuf9syurk_TaObcNfDj62_ozI7WBXxzg&s"></img>
+
+            </div>
+            </div>
+        
     )
 }
 
