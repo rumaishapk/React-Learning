@@ -1,21 +1,27 @@
 import "./index.css"
 
 const App = () => {
-    
-    return (
-        <div>
-        <h1 className = "heading">My Favouraite Foods</h1>
-            <div>
-               <img className = "food-img"
-                src="https://flowera.in/uploads/tempDir/Chocolate-Basket-2-600X600.webp"></img>
-               <img className = "food-img"
-                src="https://shwetainthekitchen.com/wp-content/uploads/2023/03/vegetable-noodles.jpg"></img>
-               <img className = "food-img"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbtEEuf9syurk_TaObcNfDj62_ozI7WBXxzg&s"></img>
+    const date = new Date();
+    const currentTime = date.getHours()
+    console.log(currentTime)
+    let greeting;
+    const customStyle = {
+        color : ""
+    }
 
-            </div>
-            </div>
-        
+    if(currentTime<12){
+        greeting = "Good Morning"
+        customStyle.color = "red"
+    }else if(currentTime<18){
+        greeting = "Good Afternoon"
+        customStyle.color = "green"
+    }else {
+        greeting = "Good Night"
+        customStyle.color = "blue"
+    }
+
+    return (
+        <h1 className ="heading" style={customStyle}>{greeting}</h1>
     )
 }
 
